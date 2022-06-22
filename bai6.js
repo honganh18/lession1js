@@ -1,11 +1,9 @@
-var name;
-var mark;
 function check(name,mark) {
     if(mark<= 100 && mark>=90) {
-        console.log(`${name} xếp loại S`)
+      return  console.log(`${name} xếp loại S`)
     }
     else if ( mark>=80) {
-        console.log(`${name} xếp loại A`)
+      return  console.log(`${name} xếp loại A`)
     }
     else if ( mark>=70) {
         console.log(`${name} xếp loại B`)

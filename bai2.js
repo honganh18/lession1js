@@ -1,6 +1,3 @@
-var a;
-var b;
-var c;
 function giaipt(a, b, c) {
     var x = (c - b) / a
     if (a == 0 && (b - c) == 0) {

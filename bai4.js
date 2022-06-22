@@ -1,14 +1,13 @@
-var a ;
-var b ;
+
 function compare(a,b){
     if(a>b){
-        console.log(`${a} là số lớn nhất`)
+     return   console.log(`${a} là số lớn nhất`)
     }
      else if (b>a){
-        console.log(`${b} là số lớn nhất`)
+       return console.log(`${b} là số lớn nhất`)
     }
     else {
-        console.log("hai số bằng nhau")
+       return console.log("hai số bằng nhau")
     }
 }
 compare(12,-9);

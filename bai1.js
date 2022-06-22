@@ -1,9 +1,3 @@
-var member1 ;
-var mass1;
-var height1 ;
-var member2 ;
-var mass2;
-var height2 ;
 function check(member1,mass1,height1,member2,mass2,height2){
  var bmi1 = mass1 / (height1 * height1);
 var bmi2 = mass2 / (height2 * height2);
