@@ -9,16 +9,16 @@ var b2 = 108;
 var b3 = 89;
 var tb2= (b1+b2+b3)/3;
 if (tb1>tb2 && tb1>100){
-    console.log(`${team1} là đội thắng cuộc và giành được cup`)
+    return  console.log(`${team1} là đội thắng cuộc và giành được cup`)
 }
 else if (tb2>tb1 && tb2>100){
-    console.log(`${team2} là đội thắng cuộc và giành được cup`)
+    return  console.log(`${team2} là đội thắng cuộc và giành được cup`)
 }
 else if (tb1==tb2 && tb1>100 && tb2>100){
-    console.log(`cả 2 đội hòa`)
+    return console.log(`cả 2 đội hòa`)
 }
 else{
-    console.log('không có đội nào thắng') 
+    return  console.log('không có đội nào thắng') 
 }
 
 
@@ -30,17 +30,17 @@ var d1 = 109;
 var d2 = 95;
 var d3 = 123;
 var tb4= (d1+d2+d3)/3;
-if (tb3>tb4 && tb3>100){
-    console.log(`${team1} là đội thắng cuộc và giành được cup`)
+if (tb1>tb2 && tb1>100){
+    return  console.log(`${team1} là đội thắng cuộc và giành được cup`)
 }
-else if (tb4>tb3 && tb4>100){
-    console.log(`${team2} là đội thắng cuộc và giành được cup`)
+else if (tb2>tb1 && tb2>100){
+    return  console.log(`${team2} là đội thắng cuộc và giành được cup`)
 }
-else if (tb3==tb4 && tb3>100 && tb4>100){
-    console.log(`cả 2 đội hòa`)
+else if (tb1==tb2 && tb1>100 && tb2>100){
+    return console.log(`cả 2 đội hòa`)
 }
 else{
-    console.log('không có đội nào thắng') 
+    return  console.log('không có đội nào thắng') 
 }
 
 
@@ -52,15 +52,15 @@ var f1 = 109;
 var f2 = 95;
 var f3 = 123;
 var tb6= (f1+f2+f3)/3;
-if (tb5>tb6 && tb5>100){
-    console.log(`${team1} là đội thắng cuộc và giành được cup`)
+if (tb1>tb2 && tb1>100){
+    return  console.log(`${team1} là đội thắng cuộc và giành được cup`)
 }
-else if (tb6>tb5 && tb6>100){
-    console.log(`${team2} là đội thắng cuộc và giành được cup`)
+else if (tb2>tb1 && tb2>100){
+    return  console.log(`${team2} là đội thắng cuộc và giành được cup`)
 }
-else if (tb5==tb6 && tb5>100 && tb6>100){
-    console.log(`cả 2 đội hòa`)
+else if (tb1==tb2 && tb1>100 && tb2>100){
+    return console.log(`cả 2 đội hòa`)
 }
 else{
-    console.log('không có đội nào thắng') 
+    return  console.log('không có đội nào thắng') 
 }
